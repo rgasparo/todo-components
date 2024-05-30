@@ -1,7 +1,6 @@
 // components/Input.jsx
 
 const Input = (props) => {
-  // eslint-disable-next-line react/prop-types
   const { value, onChange, onSubmit } = props;
   return (
     <form

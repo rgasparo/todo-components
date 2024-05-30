@@ -1,20 +1,16 @@
-// App.jsx in host-app
+// App.jsx
 import { useState } from "react";
-import List from "todo_components/List";
-import Input from "todo_components/Input";
+import "./App.css";
+import Input from "./components/Input";
+import List from "./components/List";
 
 function App() {
-  const [newTodo, setNewTodo] = useState("");
-  const [todos, setTodos] = useState([]);
-  const onSubmit = () => {
-    setTodos((prev) => [...prev, newTodo]);
-    setNewTodo("");
-  };
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <Input value={newTodo} onChange={setNewTodo} onSubmit={onSubmit} />
-      <List items={todos} />
+      <Input value={count} onChange={setCount} onSubmit={console.log} />
+      <List items={["Learn React", "Learn Vite", "Make an awesome app"]} />
     </>
   );
 }
