@@ -12,6 +12,7 @@ export default defineConfig({
       exposes: {
         "./List": "./src/components/List.jsx",
         "./Input": "./src/components/Input.jsx",
+        "./App": "./src/App.jsx",
       },
       shared: ["react"],
     }),
