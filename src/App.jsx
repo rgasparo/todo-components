@@ -34,10 +34,10 @@ function App() {
   };
 
   return (
-    <>
+    <div className="w-full mx-auto">
       <Input value={newItem} onChange={setNewItem} onSubmit={handleAddItem} />
       <List items={items} onDelete={handleDeleteItem} />
-    </>
+    </div>
   );
 }
 

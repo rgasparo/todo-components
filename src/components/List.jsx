@@ -2,7 +2,7 @@
 const List = (props) => {
   const { items, onDelete } = props;
   return (
-    <ul className="mt-8 space-y-2">
+    <ul className="mt-8 space-y-2 mx-auto">
       {items.map((item, index) => (
         <li key={index} className="flex justify-between items-center p-2 border-b border-gray-300">
           <span>{item}</span>

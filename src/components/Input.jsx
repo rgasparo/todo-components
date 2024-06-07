@@ -2,8 +2,8 @@
 const Input = (props) => {
   const { value, onChange, onSubmit } = props;
   return (
-    <>
-      <div className="text-center mt-8">
+    <div className="w-full">
+      <div className="text-center mt-8 w-full">
         <h1 className="font-bold text-2xl">Documentos</h1>
         <h3 className="mt-2 text-lg">Agrega la lista de documentos a solicitar</h3>
       </div>
@@ -26,7 +26,7 @@ const Input = (props) => {
           </button>
         </div>
       </form>
-    </>
+    </div>
   );
 };
 

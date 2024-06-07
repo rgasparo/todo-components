@@ -3,43 +3,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* .body {
+  touch-action: pan-x pan-y;
+  user-select: none;
+  -ms-content-zooming: none;
+  -ms-touch-action: pan-x pan-y;
+  -ms-touch-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  zoom: reset;
 }
+
+:root {
+  --black: #222;
+  --white: #fff;
+  --primary: #A50932;
+} */
+
 
 a {
-  font-weight: 500;
+  /* font-weight: 500;
   color: #1d1d1d;
-  text-decoration: inherit;
+  text-decoration: inherit; */
 }
 a:hover {
-  color: #bc1212;
+  /* color: #bc1212; */
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-}
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  /* font-size: 3.2em;
+  line-height: 1.1; */
 }
 
 button {
-  border-radius: 8px;
+  /* border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -47,7 +47,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s; */
 }
 button:hover {
   border-color: #646cff;

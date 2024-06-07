@@ -1,9 +1,22 @@
 /* src/App.css */
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* .body {
+  touch-action: pan-x pan-y;
+  user-select: none;
+  -ms-content-zooming: none;
+  -ms-touch-action: pan-x pan-y;
+  -ms-touch-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  zoom: reset;
 }
+
+:root {
+  --black: #222;
+  --white: #fff;
+  --primary: #A50932;
+} */
 
 H1::selection {
   background: red;
